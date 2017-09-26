@@ -5,6 +5,19 @@
 
 Now more than syntactic sugar for asynchronous dispatches in Grand Central Dispatch ([GCD](https://developer.apple.com/library/prerelease/ios/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html)) in Swift
 
+
+# Note: Swift4.0
+* Temporary version, please wait for the author to update
+* Date: 2017-09-26
+```swift
+pod 'AsyncSwiftTemp'
+
+---
+
+import Async
+```
+
+
 **Async** sugar looks like this:
 ```swift
 Async.userInitiated {
